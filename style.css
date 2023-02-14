@@ -14,36 +14,46 @@ body {
 form {
     font-family: 'Times New Roman', Times, serif;
     padding: 25px 0;
+    text-align: center;
 }
 
 input {
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
-    padding: 5px;
-    margin: 15px 0;
+    padding: 10px 0px;
+    margin: 10px auto;
     display: block;
-    max-width: 80vw;
+    max-width: 100vw;
+    min-width: calc(90vw);
 
-    border: 2px solid #ff0080;
+    border: 1px solid black;
     border-radius: 2px;
     display: block;
+    animation: border-color-change 10s infinite;
 }
 
 input::placeholder {
-    font-weight: bold;
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    color: #ff0080;
+    color: black;
 }
 
 button {
-    background-color: #ff0080;
-    color: white;
-    padding: 10px;
-    border: none;
-    font-size: 18px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: black;
+    color: black;
+    font-weight: bold;
+
+    font-size: 12px;
     border-radius: 2px;
-    margin: 1% 0;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    max-width: 100vw;
+    min-width: calc(10vw);
+
+    animation: background-color-change 10s infinite;
 }
 
 mark {
@@ -53,11 +63,62 @@ mark {
 
 ::-moz-selection {
     /* Code for Firefox */
-    color: white;
+    color: black;
     background: black;
 }
 
 ::selection {
-    color: white;
+    color: black;
     background: black;
+}
+
+video {
+    max-width: 90vw;
+    margin: 10% auto;
+    display: block;
+}
+
+@keyframes background-color-change {
+    0% {
+        background-color: #f68fed;
+    }
+
+    25% {
+        background-color: #a990f5;
+    }
+
+    50% {
+        background-color: #92f0ea;
+    }
+
+    75% {
+        background-color: #ebf994;
+    }
+
+    100% {
+        background-color: #f99592;
+    }
+}
+
+
+@keyframes border-color-change {
+    0% {
+        border-color: #f68fed;
+    }
+
+    25% {
+        border-color: #a990f5;
+    }
+
+    50% {
+        border-color: #92f0ea;
+    }
+
+    75% {
+        border-color: #ebf994;
+    }
+
+    100% {
+        border-color: #f99592;
+    }
 }
