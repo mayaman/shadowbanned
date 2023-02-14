@@ -12,14 +12,14 @@ body {
 
 form {
     font-family: 'Times New Roman', Times, serif;
-    padding: 5% 0;
+    padding: 25px 0;
 }
 
 input {
     font-size: 18px;
     text-align: center;
     padding: 5px;
-    margin: 1% 0;
+    margin: 15px 0;
     display: block;
     max-width: 80vw;
 
@@ -38,7 +38,7 @@ input::placeholder {
 button {
     background-color: red;
     color: white;
-    padding: 2%;
+    padding: 10px;
     border: none;
     font-size: 18px;
     border-radius: 2px;
