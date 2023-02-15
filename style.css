@@ -5,6 +5,10 @@ body {
     margin: 5%;
 }
 
+#submitted {
+    display: none;
+}
+
 .title {
     font-size: 12px;
     text-align: center;
