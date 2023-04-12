@@ -5,6 +5,51 @@ body {
     margin: 5%;
 }
 
+a {
+    cursor: pointer;
+}
+
+a.mint-link {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+button.mint {
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: black;
+    color: black;
+    font-weight: bold;
+
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin: auto;
+    border: 1px solid white;
+    max-width: 100vw;
+    min-width: calc(80vw);
+
+    animation: background-color-change 10s infinite;
+}
+
+button.mint:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin: auto;
+    border: 1px solid white;
+    max-width: 100vw;
+    min-width: calc(80vw);
+    font-style: italic;
+    
+    animation: none;
+}
+
 #submitted {
     display: none;
 }
