@@ -14,7 +14,7 @@ a.mint-link {
 button.mint {
     /* font-family: 'Times New Roman', Times, serif; */
     background-color: black;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 12px;
     border-radius: 2px;
@@ -22,26 +22,16 @@ button.mint {
     margin: auto;
     border: 1px solid white;
     max-width: 100vw;
-    min-width: calc(80vw);
-
+    min-width: calc(90vw);
     animation: background-color-change 10s infinite;
 }
 
 button.mint:hover {
     background-color: black;
     color: white;
-    font-weight: bold;
+
     cursor: pointer;
-
-    font-size: 12px;
-    border-radius: 2px;
-    padding: 10px 10px;
-    margin: auto;
-    border: 1px solid white;
-    max-width: 100vw;
-    min-width: calc(80vw);
     font-style: italic;
-
     animation: none;
 }
 
